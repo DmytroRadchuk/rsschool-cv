@@ -1,0 +1,1 @@
+1. [Link to CV](https://DmtroRadchuk.github.io/rsschool-cv/cv)
