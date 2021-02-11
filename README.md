@@ -1,1 +1,1 @@
-1. [Link to CV](https://DmtroRadchuk.github.io/rsschool-cv/cv)
+1. [Link to CV](https://DmytroRadchuk.github.io/rsschool-cv/cv)
