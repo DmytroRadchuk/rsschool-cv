@@ -12,3 +12,16 @@
   * Git, GitHub
   * SASS, Gulp
   * Adobe Photoshop, Figma, Marsy and Zeplin
+  * English (A2), Polish (B1), Russian (native), Ukrainian (native)
+
+## Code example
+
+```javascript
+function test() {
+ console.log("Hello word");
+}
+```
+
+## About me
+
+Coming soon...
