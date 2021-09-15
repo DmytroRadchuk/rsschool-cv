@@ -1,3 +1,22 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0934A2), color-stop(93.75%, #100D10));
+  background: linear-gradient(180deg, #0934A2 0%, #100D10 93.75%); }
 
+.wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh; }
+
+.main-info {
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 10px; }
+
+.skills-info {
+  background: #FFFFFF;
+  border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */
