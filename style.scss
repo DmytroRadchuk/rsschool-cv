@@ -1,0 +1,164 @@
+body{
+  font-family: "Roboto", sans-serif;
+  background: #100D10;
+}
+
+.wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+}
+.main-info {
+  padding: 10px 31px;
+  flex: 0 1 30%;
+  margin-right: 10px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 10px;
+}
+.main-info__header {
+  display: flex;
+  margin-bottom: 20px;
+}
+.main-info__avatar-box {
+  height: 170px;
+  flex: 0 0 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.main-info__avatar {
+  width: 100%;
+  object-fit: cover;
+}
+.main-info__title-box {
+}
+.main-info__title {
+  color: #fff;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+}
+.main-info__descr {
+  font-family: 'Montserrat', sans-serif;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #CECACA;
+  }
+.main-info__box {
+  padding: 10px 10px 10px 15px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  &:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  &--lage{
+    margin-top: 12px;
+  }
+  &--small{
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+  }
+}
+.main-info__icon{
+  margin-right: 30px;
+  width: 24px;
+  height: 24px;
+}
+.main-info__link{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  &::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all  0.3s ease;
+  }
+  &:hover::after{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+}
+.main-info__box-name {
+}
+.main-info__list {
+}
+.main-info__list-item {
+  margin-bottom: 4px;
+}
+.skills-info {
+  flex: 0 1 68%;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.skills-info__wrapper {
+  padding: 16px 14px;
+}
+.skills-info__title {
+  padding: 10px 30px;
+  width: 154px;
+  height: 24px;
+  background: #545454;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.skills-info__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.skills-info__box {
+  padding: 10px 10px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 1 20%;
+  margin-bottom: 30px;
+
+}
+.skills-info__img-box {
+  height: 74px;
+  width: 74px;
+  border-radius: 50%;
+  background-color: #ebe6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.skills-info__img {
+ width: 80%;
+}
+.skills-info__box-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  color: #545454
+}
+
+.skill-info__code-box {
+  padding: 10px 10px 10px 15px;
+}
+
+.skills-info__code {
+  padding: 10px 15px;
+  background-color: #ebe6e6;
+  max-width: 60%;
+}

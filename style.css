@@ -1,0 +1,189 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #100D10; }
+
+.wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh; }
+
+.main-info {
+  padding: 10px 31px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  margin-right: 10px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 10px; }
+
+.main-info__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px; }
+
+.main-info__avatar-box {
+  height: 170px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 170px;
+          flex: 0 0 170px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px; }
+
+.main-info__avatar {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.main-info__title {
+  color: #fff; }
+
+.title {
+  font-family: 'Montserrat', sans-serif; }
+
+.main-info__descr {
+  font-family: 'Montserrat', sans-serif;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #CECACA; }
+
+.main-info__box {
+  padding: 10px 10px 10px 15px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .main-info__box:hover {
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); }
+  .main-info__box--lage {
+    margin-top: 12px; }
+  .main-info__box--small {
+    margin-bottom: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.main-info__icon {
+  margin-right: 30px;
+  width: 24px;
+  height: 24px; }
+
+.main-info__link {
+  text-decoration: none;
+  color: white;
+  position: relative; }
+  .main-info__link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    -webkit-transition: all  0.3s ease;
+    transition: all  0.3s ease; }
+  .main-info__link:hover::after {
+    width: 100%;
+    color: rgba(255, 255, 255, 0.6); }
+
+.main-info__list-item {
+  margin-bottom: 4px; }
+
+.skills-info {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 68%;
+          flex: 0 1 68%;
+  background: #FFFFFF;
+  border-radius: 10px; }
+
+.skills-info__wrapper {
+  padding: 16px 14px; }
+
+.skills-info__title {
+  padding: 10px 30px;
+  width: 154px;
+  height: 24px;
+  background: #545454;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.skills-info__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+
+.skills-info__box {
+  padding: 10px 10px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+  margin-bottom: 30px; }
+
+.skills-info__img-box {
+  height: 74px;
+  width: 74px;
+  border-radius: 50%;
+  background-color: #ebe6e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15px; }
+
+.skills-info__img {
+  width: 80%; }
+
+.skills-info__box-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  color: #545454; }
+
+.skill-info__code-box {
+  padding: 10px 10px 10px 15px; }
+
+.skills-info__code {
+  padding: 10px 15px;
+  background-color: #ebe6e6;
+  max-width: 60%; }
+
+/*# sourceMappingURL=style.css.map */
