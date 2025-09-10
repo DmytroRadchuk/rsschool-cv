@@ -1,5 +1,5 @@
 # Dmytro Radchuk  
-**Junior Frontend Developer**
+**Junior Frontend Developer and rolling scope school student**
 
 ---
 
